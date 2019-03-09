@@ -1,0 +1,24 @@
+.logoLink {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font: $logoFont;
+    color: $logoColor;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    &:hover {
+        color: $mainMenuColor;
+    }
+
+    @include media ('>phone','<tablet') {
+        padding: 20px 0;
+    }
+
+    @include media ('>phone','<oldDesktop') {
+        justify-content: center;  
+        font-size: 30px;
+    }
+
+    
+}

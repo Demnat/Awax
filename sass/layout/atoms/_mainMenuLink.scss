@@ -1,0 +1,22 @@
+.mainMenuLink {
+    padding: 40px 10px 35px 10px;
+    font: $mainMenuFont;
+    color: $mainMenuColor;
+    text-decoration: none;
+    border-bottom: 5px solid transparent;
+    display: inline-block;
+
+    &:hover, &:active, &--active {
+        border-bottom: 5px solid $logoColor;
+    }
+
+    @include media ('>phone','<oldDesktop') {
+        padding: 20px 10px;
+        font-size: 20px;   
+
+    }
+
+    @include media ('<550px') {
+        font-size: 16px;
+    }
+}

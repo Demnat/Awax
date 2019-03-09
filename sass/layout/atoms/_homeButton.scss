@@ -1,0 +1,16 @@
+.homeButton {
+    padding: 18px 50px;
+    font: $homeButtonFont;
+    color: $mainMenuColor;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 23px;
+    background-color: $logoColor;
+    
+    &:hover {
+        cursor: pointer;
+        background-color: $mainMenuColor;
+        color: $logoColor;
+    }
+}
