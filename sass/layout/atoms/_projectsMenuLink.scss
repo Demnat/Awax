@@ -1,0 +1,22 @@
+.projectsMenuLink {
+    padding: 19px 10px 15px 10px;
+    font: $projectsMenuFont;
+    color: $navBarBgColor;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    display: inline-block;
+    text-transform: uppercase;
+
+    &:hover, &:active, &.active {
+        border-bottom: 4px solid $logoColor;
+    }
+
+    @include media ('>phone','<oldDesktop') {
+        padding: 20px 10px;
+        font-size: 20px;   
+    }
+
+    @include media ('<550px') {
+        font-size: 16px;
+    }
+}

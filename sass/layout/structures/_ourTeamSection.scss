@@ -1,0 +1,24 @@
+.ourTeamSection {
+    background-image: url('https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+
+    &-tint {
+        padding: 60px 0;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+
+        &-container {
+
+            &-sectionHeader {
+                color: $mainMenuColor;
+            }
+
+            .carouselIndicators--team {
+                padding: 40px 0 0 0;
+                position: relative;
+                bottom: 0;
+            }
+        }
+        
+    }
+
+}

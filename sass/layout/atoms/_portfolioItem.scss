@@ -1,0 +1,42 @@
+.portfolioItem {
+    margin: 15px;
+    width: 255px;
+    height: 165px;
+    background-size: cover;
+
+    &--bg1 {
+        background-image: url('https://images.pexels.com/photos/1449081/pexels-photo-1449081.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    }
+
+    &--bg2 {
+        background-image: url('https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    }
+
+    &--bg3 {
+        background-image: url('https://images.pexels.com/photos/1435750/pexels-photo-1435750.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    }
+
+    &--bg4 {
+        background-image: url('https://images.pexels.com/photos/327273/pexels-photo-327273.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    }
+
+    &-data {
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        
+        &-header, &-text {
+            padding: 20px;
+            color: $mainMenuColor;
+        }
+    }
+
+    &:hover .portfolioItem-data {
+            visibility: visible;
+    }
+}

@@ -1,0 +1,9 @@
+.projectsMenu-item {
+    margin: 2px 0 0 0;
+    padding: 0 2px;
+    border-right: 1px solid $projectMenuBorderColor;
+   
+    &:last-of-type {
+        border-right: none;
+    }
+}

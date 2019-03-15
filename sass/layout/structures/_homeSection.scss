@@ -4,8 +4,16 @@
         background-size: cover;
         max-height: 770px;
         
-        &--bg1{
+        &--bg1 {
             background-image: url("https://images.pexels.com/photos/593316/pexels-photo-593316.jpeg?cs=srgb&dl=apple-devices-camera-computer-593316.jpg&fm=jpg");
+        }
+
+        &--bg2 {
+            background-image: url("https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        }
+
+        &--bg3 {
+            background-image: url("https://images.pexels.com/photos/414551/pexels-photo-414551.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
         }
 
         &-tint {

@@ -1,0 +1,22 @@
+.teamCarouselItem {
+    padding: 0 10px;
+    
+
+    &-container {
+        padding: 45px;
+        width: 350px;
+        height: 430px;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $mainMenuColor;
+
+        &-socialIcons-container {
+            justify-content: center;
+        }
+    }
+}
+.teamCarouselItem > div{
+    
+}

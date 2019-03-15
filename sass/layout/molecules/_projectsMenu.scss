@@ -1,0 +1,11 @@
+.projectsMenu {
+    margin: 50px 0 0 0;
+    padding: 0 20px;
+    border-radius: 23px;
+    background-color: $projectMenuBGColor;
+    border: 1px solid $projectMenuBorderColor;
+    list-style: none;
+    // flex-direction: row;
+    display: inline-flex;
+    justify-content: center;
+}

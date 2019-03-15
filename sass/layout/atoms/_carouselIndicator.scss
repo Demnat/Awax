@@ -1,0 +1,13 @@
+.carouselIndycator {
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border: 2px solid $logoColor;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover, &:active, &.active {
+        background-color: $logoColor;
+    }
+} 
