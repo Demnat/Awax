@@ -1,0 +1,26 @@
+.suiteDescriptionSection {
+    padding: 60px 0;
+    background-color: $mainMenuColor;
+    
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-carousel {
+            padding: 0 0 40px 0;
+            width: 100%;
+
+            &-carouselItemsContainer {
+                padding: 0 0 40px 0;
+            }
+
+            &-carouselIndicators {
+                position: relative;
+                bottom: 0;
+            }
+        }
+    }
+
+}

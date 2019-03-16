@@ -1,0 +1,14 @@
+.priceSection {
+    padding: 60px 0;
+    background-color: $projectMenuBGColor;
+
+    &-sectionSubHeader {
+        padding: 10px 0;
+    }
+
+    &-tables {
+        padding-top: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

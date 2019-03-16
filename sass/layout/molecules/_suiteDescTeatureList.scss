@@ -1,0 +1,19 @@
+.suiteDescTeatureList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &Item {
+        margin: 0;
+        padding: 0 20px 0 0;
+        font: $sectionTextFont;
+        color: $suiteDescTeatureTextColor;
+        text-transform: uppercase;
+        
+        &:before {
+            content: "-";
+            padding-right: 8px;
+            color: $suiteDescTeatureTextColor;
+        }
+    }
+}

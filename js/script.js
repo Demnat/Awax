@@ -57,7 +57,16 @@
         navContainer: '.carouselIndicators--clients',
     });
 
-
+    const suiteSlider = tns({
+        container: '.carouselItemsContainer--suiteDescription',
+        items: 1,
+        slideBy: 'page',
+        autoplay: false,
+        mouseDrag: false,
+        lazyload: false,
+        controls: false,
+        navContainer: '.carouselIndicators--suiteDescription',
+    });
 
 })();
 

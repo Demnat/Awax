@@ -1153,7 +1153,7 @@ body {
   padding: 40px 0 5px 0;
   width: 100%;
   display: block;
-  font: 21px/21px "Myriad Pro", sans-serif;
+  font: 21px/21px "Montserrat", sans-serif;
   color: #242424;
   text-align: center;
   text-transform: uppercase;
@@ -1164,7 +1164,7 @@ body {
   padding: 5px 0 40px 0;
   width: 100%;
   display: block;
-  font: 14px/24px "Myriad Pro", sans-serif;
+  font: 14px/24px "Montserrat", sans-serif;
   color: #242424;
   text-align: center;
 }
@@ -1193,6 +1193,109 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+.clientsName {
+  margin: 0;
+  padding: 25px 0 10px 0;
+  width: 100%;
+  display: block;
+  font: bold 24px/18px "Montserrat", sans-serif;
+  color: #242424;
+  text-align: center;
+}
+
+.clientsJob {
+  margin: 0;
+  padding: 0 0 30px 0;
+  width: 100%;
+  display: block;
+  font: 300 18px/18px "Montserrat", sans-serif;
+  color: #242424;
+  text-align: center;
+}
+
+.quoteIcon {
+  font-size: 20px;
+  color: #7e7e7e;
+}
+
+.quote {
+  margin: 0;
+  padding: 15px 200px 50px 200px;
+  width: 100%;
+  display: block;
+  font: 14px/25px "Montserrat", sans-serif;
+  color: #7e7e7e;
+  text-align: center;
+}
+
+.brandImage {
+  width: 120px;
+  height: 70px;
+}
+
+.suitePrice {
+  margin: 0;
+  padding: 0;
+  font: 14px/21px "Montserrat", sans-serif;
+  color: #242424;
+  text-transform: uppercase;
+}
+
+.price {
+  margin: 0;
+  padding: 15px 0 0 0;
+  font: bold 30px/21px "Montserrat", sans-serif;
+  color: #242424;
+}
+
+.byPeriod {
+  margin: 0;
+  padding: 0 0 20px 0;
+  font: 10px/25px "Montserrat", sans-serif;
+  color: #aeaeae;
+  text-transform: uppercase;
+}
+
+.componentsSuite {
+  margin: 0;
+  padding: 0;
+  font: 10px/13px "Montserrat", sans-serif;
+  color: #8a8a8a;
+}
+
+.suiteDescriptionImage {
+  width: 340px;
+  height: 350px;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkCircleIcon {
+  font-size: 35px;
+  color: #b88b58;
+}
+
+.suiteDescFeatureHeader {
+  margin: 0;
+  padding: 0;
+  font: bold 21px/21px "Montserrat", sans-serif;
+  color: #242424;
+  text-transform: uppercase;
+}
+
+.suiteDescTeatureText {
+  margin: 0;
+  padding: 0 20px 0 0;
+  font: 14px/25px "Montserrat", sans-serif;
+  color: #5b5b5b;
 }
 
 .mainMenu {
@@ -1239,6 +1342,65 @@ body {
 
 .teamCarouselItem-container-socialIcons-container {
   justify-content: center;
+}
+
+.clientsCarouselItem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.priceTable {
+  padding: 30px 0;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.priceTable-button {
+  margin-top: 30px;
+  background-color: #373737;
+}
+
+.priceTable-button:hover {
+  background-color: #b88b58;
+  color: #fff;
+}
+
+.suiteDescTeatureList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.suiteDescTeatureListItem {
+  margin: 0;
+  padding: 0 20px 0 0;
+  font: 14px/25px "Montserrat", sans-serif;
+  color: #5b5b5b;
+  text-transform: uppercase;
+}
+
+.suiteDescTeatureListItem:before {
+  content: "-";
+  padding-right: 8px;
+  color: #5b5b5b;
+}
+
+.suiteDescriptionCarouselItem {
+  border-bottom: 1px solid #cfcfcf;
+  background-color: #fff;
+}
+
+.suiteDescriptionCarouselItem-container-featureContainer {
+  padding: 40px 0 0 0;
+}
+
+.suiteDescriptionCarouselItem-container-featureContainer:last-of-type {
+  padding-bottom: 40px;
 }
 
 .navBar {
@@ -1330,12 +1492,77 @@ body {
   bottom: 0;
 }
 
+.happyClientsSection {
+  padding: 60px 0 40px 0;
+}
+
+.happyClientsSection-container-sectionSubHeader {
+  padding-bottom: 70px;
+}
+
+.happyClientsSection-container-carousel-carouselIndicators {
+  position: relative;
+  bottom: 0;
+}
+
+.brandsSection {
+  padding: 60px 0;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  background-color: #fff;
+}
+
+.brandsSection-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceSection {
+  padding: 60px 0;
+  background-color: #ededed;
+}
+
+.priceSection-sectionSubHeader {
+  padding: 10px 0;
+}
+
+.priceSection-tables {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suiteDescriptionSection {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.suiteDescriptionSection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suiteDescriptionSection-container-carousel {
+  padding: 0 0 40px 0;
+  width: 100%;
+}
+
+.suiteDescriptionSection-container-carousel-carouselItemsContainer {
+  padding: 0 0 40px 0;
+}
+
+.suiteDescriptionSection-container-carousel-carouselIndicators {
+  position: relative;
+  bottom: 0;
+}
+
 .index {
   background-color: #f7f7f7;
 }
 
 .styleguide {
-  background-color: #8f8f8f;
+  background-color: #c7ecee;
 }
 
 /*# sourceMappingURL=style.css.map */

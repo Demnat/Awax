@@ -1,0 +1,15 @@
+.suiteDescriptionCarouselItem {
+    border-bottom: 1px solid $projectMenuBorderColor;
+    background-color: $mainMenuColor;
+
+    &-container {
+
+        &-featureContainer {
+            padding: 40px 0 0 0;
+
+            &:last-of-type {
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
