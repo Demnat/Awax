@@ -1,0 +1,12 @@
+.subscribeInput {
+    margin: 0;
+    padding: 15px 0;
+    display: block;
+    border: none;
+    background-color: transparent;
+    font: $sectionTextFont;
+    color: $subscribeInputTextColor;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid $sectionSubHeaderColor;
+}

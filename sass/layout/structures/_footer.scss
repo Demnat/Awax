@@ -1,0 +1,24 @@
+.footer {
+    padding: 30px 0;
+    background-color: $navBarBgColor;
+
+    &-container {
+
+        &-rightsContainer {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &-socialIcons {
+                background-color: $priceTableButtonBGColor;
+            }
+        }
+
+        &-text {
+            padding-right: 30px;
+            text-align: left;
+        }
+    }
+
+}

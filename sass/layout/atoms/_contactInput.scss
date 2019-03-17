@@ -1,0 +1,13 @@
+.contactInput {
+    margin: 0;
+    padding: 5px 0 10px 0;
+    width: 100%;
+    display: block;
+    border: none;
+    background-color: transparent;
+    font: $sectionTextFont;
+    color: $subscribeInputTextColor;
+    text-transform: uppercase;
+    border-bottom: 2px solid $sectionSubHeaderColor;
+
+}

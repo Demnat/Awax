@@ -1,0 +1,36 @@
+.socialSection {
+    padding: 20px 0;
+    border-top: 1px solid $projectMenuBorderColor;
+    border-bottom: 1px solid $projectMenuBorderColor; 
+    background-color: $mainMenuColor;
+    
+    &-container {
+
+        &-socialContainer {
+            justify-content: space-between;
+
+            &-socialItemContainer {
+
+                &-socialIcons--twitter {
+                    background-color: $twitterColor;
+                }
+
+                &-socialIcons--linkedin {
+                    background-color: $LinkedInColor;
+                }
+
+                &-socialIcons--facebook {
+                    background-color: $facebookColor;
+                }
+
+                &-socialIcons--gplus {
+                    background-color: $pinterestColor;
+                }
+
+                &-socialIcons--pinterest {
+                    background-color: $googlePlusColor;
+                }
+            }
+        }
+    }
+}

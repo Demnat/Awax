@@ -1,0 +1,29 @@
+.addIcons {
+    position: absolute;
+    margin: 0 3px;
+    padding: 10px 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    color: $mainMenuColor;
+    background-color: $logoColor;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 35px;
+    align-self: center;
+    cursor: pointer;
+    
+    &--call {
+        bottom: -30px;
+        right: 8%;
+    }
+    
+    &--up {
+        top: -30px;
+        left: 8%;
+    }
+    
+    &:hover {
+        background-color: $socialIconsColor;
+    }
+}

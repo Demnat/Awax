@@ -1,0 +1,14 @@
+.factsNumbers {
+    margin: 0;
+    padding: 60px 0 0 0;
+    font: $factsNumbersFont;
+    color: $logoColor;
+
+    &::after {
+        margin: 20px 45% 10px 45%;
+        width: 20px;
+        display: block;
+        content: "";
+        border-bottom: 4px solid $serviceTextColor;
+    }
+}

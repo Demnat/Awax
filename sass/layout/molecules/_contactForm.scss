@@ -1,0 +1,23 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-inputsContainer {
+       padding: 20px 0;
+       width: 100%;
+
+        &--message {
+            padding: 55px 0;
+        }
+
+        &--name {
+            padding-right: 10px;
+        }
+    
+        &--email {
+            padding-left: 10px;
+        }
+    }
+
+}

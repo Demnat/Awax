@@ -1,5 +1,5 @@
 @import url('https://db.onlinewebfonts.com/c/07689d4eaaa3d530d58826b5d7f84735?family=Montserrat');
-@import url('https://db.onlinewebfonts.com/c/a89cf050c859a23e4b6d9cf5989acf9e?family=Myriad+Pro');
+// @import url('https://db.onlinewebfonts.com/c/a89cf050c859a23e4b6d9cf5989acf9e?family=Myriad+Pro');
 
 /* Media - breakpoints */
 $breakpoints: (
@@ -23,6 +23,12 @@ $socialIconsColor: #bebebe;
 $componentsSuiteColor: #8a8a8a;
 $priceTableButtonBGColor: #373737;
 $suiteDescTeatureTextColor: #5b5b5b;
+$subscribeInputTextColor: #9e9e9e;
+$twitterColor: #00aced;
+$LinkedInColor: #127cb4;
+$facebookColor: #3b5998;
+$pinterestColor: #cb2028;
+$googlePlusColor: #d95232;
 
 /* Font sizes */
 
@@ -46,3 +52,7 @@ $priceFont: bold 30px/21px 'Montserrat', sans-serif;
 $byPeriodFont: 10px/25px 'Montserrat', sans-serif;
 $componentsSuiteFont: 10px/13px 'Montserrat', sans-serif;
 $suiteDescFeatureHeaderFont: bold 21px/21px 'Montserrat', sans-serif;
+$factsNumbersFont: bold 48px/28px 'Montserrat', sans-serif;
+$tellAboutUsFont: 700 14px/30px 'Montserrat', sans-serif;
+$socialNumbersFont: bold 10px/25px 'Montserrat', sans-serif;
+$addressDataFont: 300 12px/24px 'Montserrat', sans-serif;

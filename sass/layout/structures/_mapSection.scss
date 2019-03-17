@@ -1,0 +1,17 @@
+.mapSection {
+    padding: 35px 0;
+    background-image: url("https://images.pexels.com/photos/240834/pexels-photo-240834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+
+    &-container {
+
+        &-addressContainer {
+            padding: 55px 25px 40px 25px;
+            background-color: $mainMenuColor;
+
+            &-data {
+               padding: 0 0 15px 0; 
+            }
+        }
+    }
+}
