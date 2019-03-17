@@ -34,13 +34,13 @@
         loop: false,
         navContainer: '.carouselIndicators--team',
         "responsive": {
-            "320": {
+            "500": {
                 "items": 1
             },
             "768": {
                 "items": 2
             },
-            "992": {
+            "1200": {
                 "items": 3
             },
         },
@@ -66,6 +66,17 @@
         lazyload: false,
         controls: false,
         navContainer: '.carouselIndicators--suiteDescription',
+        "responsive": {
+            "500": {
+                "items": 1
+            },
+            "768": {
+                "items": 1
+            },
+            "1200": {
+                "items": 1
+            },
+        },
     });
 
 })();

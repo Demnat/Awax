@@ -15,4 +15,8 @@
             color: $mainMenuColor;
         }
     }
+
+    @include media ('>phone','<oldDesktop') {
+        margin: 10px 0;
+    }
 }

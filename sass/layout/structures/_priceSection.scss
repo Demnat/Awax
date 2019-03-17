@@ -10,5 +10,10 @@
         padding-top: 35px;
         display: flex;
         justify-content: space-between;
+
+        @include media ('>phone','<oldDesktop') {
+            padding: 0 20px;
+            flex-wrap: wrap;
+        }
     }
 }

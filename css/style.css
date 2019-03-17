@@ -1234,6 +1234,12 @@ body {
   height: 70px;
 }
 
+@media (min-width: 321px) and (max-width: 991px) {
+  .brandImage {
+    margin: 5px 0;
+  }
+}
+
 .suitePrice {
   margin: 0;
   padding: 0;
@@ -1430,6 +1436,12 @@ body {
   justify-content: center;
 }
 
+@media (min-width: 321px) and (max-width: 991px) {
+  .projectsMenu {
+    flex-wrap: wrap;
+  }
+}
+
 .teamCarouselItem {
   padding: 0 10px;
 }
@@ -1473,6 +1485,12 @@ body {
 .priceTable-button:hover {
   background-color: #b88b58;
   color: #fff;
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+  .priceTable {
+    margin: 10px 0;
+  }
 }
 
 .suiteDescTeatureList {
@@ -1527,8 +1545,26 @@ body {
   padding-right: 10px;
 }
 
+@media (min-width: 321px) and (max-width: 991px) {
+  .contactForm-inputsContainer--name {
+    padding: 0;
+  }
+}
+
 .contactForm-inputsContainer--email {
   padding-left: 10px;
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+  .contactForm-inputsContainer--email {
+    padding: 0;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+  .contactForm {
+    padding: 20px;
+  }
 }
 
 .subscribe {
@@ -1580,6 +1616,12 @@ body {
   padding: 60px 0;
 }
 
+@media (min-width: 321px) and (max-width: 991px) {
+  .aboutUsSection {
+    padding: 60px 20px;
+  }
+}
+
 .servicesSection {
   padding: 60px 0;
   background-color: #000;
@@ -1611,6 +1653,12 @@ body {
   width: 100%;
   justify-content: space-between;
   flex-direction: row;
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+  .ourProjectsSection {
+    padding: 60px 20px;
+  }
 }
 
 .ourTeamSection {
@@ -1656,6 +1704,13 @@ body {
 .brandsSection-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+  .brandsSection {
+    padding: 60px 20px;
+  }
 }
 
 .priceSection {
@@ -1671,6 +1726,13 @@ body {
   padding-top: 35px;
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+  .priceSection-tables {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
 }
 
 .suiteDescriptionSection {
@@ -1696,6 +1758,12 @@ body {
 .suiteDescriptionSection-container-carousel-carouselIndicators {
   position: relative;
   bottom: 0;
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+  .suiteDescriptionSection {
+    padding: 60px 20px;
+  }
 }
 
 .factsSection {

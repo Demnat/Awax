@@ -13,11 +13,23 @@
 
         &--name {
             padding-right: 10px;
+
+            @include media ('>phone','<oldDesktop') {
+                padding: 0;
+            }
         }
     
         &--email {
             padding-left: 10px;
+
+            @include media ('>phone','<oldDesktop') {
+                padding: 0;
+            }
         }
+    }
+
+    @include media ('>phone','<oldDesktop') {
+        padding: 20px;
     }
 
 }

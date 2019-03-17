@@ -8,4 +8,9 @@
     // flex-direction: row;
     display: inline-flex;
     justify-content: center;
+
+    @include media ('>phone','<oldDesktop') {
+        
+        flex-wrap: wrap;
+    }
 }

@@ -13,4 +13,8 @@
             flex-direction: row;
         }
     }
+
+    @include media ('>phone','<oldDesktop') {
+        padding: 60px 20px;
+    }
 }

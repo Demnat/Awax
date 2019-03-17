@@ -1,4 +1,7 @@
 .aboutUsSection {
     padding: 60px 0;
 
+    @include media ('>phone','<oldDesktop') {
+        padding: 60px 20px;
+    }
 }

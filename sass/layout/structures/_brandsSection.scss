@@ -7,5 +7,10 @@
     &-container {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    @include media ('>phone','<oldDesktop') {
+        padding: 60px 20px;
     }
 }

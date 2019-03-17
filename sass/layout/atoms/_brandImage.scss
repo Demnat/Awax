@@ -1,4 +1,8 @@
 .brandImage {
     width: 120px;
     height: 70px;
+
+    @include media ('>phone','<oldDesktop') {
+        margin: 5px 0;
+    }
 }
